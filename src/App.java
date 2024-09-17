@@ -120,7 +120,7 @@ public class App {
      * You can create any other methods you need as well!
      */ 
     
-     public String restartPlay() {
+     public String restartPlay() { /*method to get users input if he wants to play again */
         Scanner input = new Scanner(System.in);
         System.out.print("Do you want to play again? (yes/no): ");
         return input.nextLine();
